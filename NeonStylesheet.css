@@ -1,0 +1,263 @@
+  body{
+    background-image: url(blue-259458_1920.jpg);
+    background-size: cover;
+    
+  }
+
+
+  .hr {
+    border: 0;
+    height: 3px;
+    background: #095484;
+    background-image: linear-gradient(to right, #cccccc70, #000000, #cccccc70);
+  }
+
+
+
+.navbar {
+  text-align: center;
+  border-radius: 0%;
+  border-bottom: 5px solid black;
+  color: white;
+  width: 100%;
+  position: bottom;
+    
+  }
+  
+  
+  
+  
+  
+  .dropdown {
+    float: center ;
+    font-size: 16px;
+    color: rgb(141, 142, 143);
+    text-align: center;
+    padding: 35px 35px;
+    
+  }
+  
+
+  
+  
+  
+  .dropdown .dropbtn {
+    font-size: 22px;
+    text-align: center;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+    font-weight: bolder;
+    
+  
+  }
+  
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    background-color: #444444;
+    padding: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;right: 910px;
+    width:auto;
+  }
+  
+  
+  
+  .dropdown-content a {
+    float: center;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
+    font-size: 14px;
+    display: block;
+    text-align:justify;
+    
+  }
+  
+  
+  .dropdown-content a:hover {
+    background-color: #000000;
+    width: 150px;
+    float: center;
+    text-align: center;
+    font-size: 16px;
+    display:flex;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    float: center;
+    text-align: center;
+    font-size: 16px;
+    
+  }
+
+
+
+
+
+.port-logo {
+  height: 180px;
+  width: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+}
+
+
+
+.Header1{
+  color: #ddd;
+  text-align: center;
+  padding: 100px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Header4 {
+  position: relative;
+  font-size: medium;
+  font-family: inherit;
+  color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.Container {
+
+  background-color: #00000049;
+  border: 3px solid black;
+  height: 290px;
+  width: 750px;
+  margin: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  position: relative;
+  
+}
+
+
+
+.Button {
+  position: sticky;
+  margin: 30px;
+  height: 80px;
+  width: 80px;
+  font-size: 19px;
+  background-color: rgb(0, 0, 0);
+  animation: glowing 3000ms infinite;
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #0e0c7400;
+    box-shadow: 0 0 5px #6e6d6d;
+  }
+  50% {
+    background-color: #000000;
+    box-shadow: 0 0 5px #000000;
+  }
+  100% {
+    background-color: #0e0c7400;
+    box-shadow: 0 0 5px #6e6d6d;
+  }
+}
+
+
+
+.Output {
+  position: sticky;
+  margin: 30px;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: aliceblue;
+  text-align: auto;
+}
+
+
+
+
+
+ 
+
+
+
+ 
+  
+  .header h4{
+    position: center;
+    left: 10%;
+    bottom: 1rem;
+    font-size: 1.6rem;
+  }
+  
+
+  
+  .intro{
+    position: fixed;
+    z-index: 1;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100vh;
+    background-image: url(blue-259458_1920.jpg);
+    transition: 1s;
+  }
+  
+  .logo-header{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    text-shadow: #000000;
+    filter: contrast();
+    opacity: 2.5;
+    text-decoration: underline;
+  
+  }
+  
+  .logo{
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+  }
+  
+  .logo.active{
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 1s;
+  }
+  
+  .logo.fade{
+    bottom: 0;
+    opacity: 0;
+    transition: ease-in-out 2s;
+  }
+
+ 
+
+
+
+
