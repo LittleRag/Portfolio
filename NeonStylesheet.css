@@ -56,7 +56,7 @@
   
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: rgb(250, 168, 14);
     margin-left: auto;
     margin-right: auto;
     
@@ -90,11 +90,11 @@
   
   .dropdown-content a:hover {
     background-color: #000000;
-    width: 150px;
+    
     float: center;
     text-align: center;
     font-size: 16px;
-    display:flex;
+    display:center;
   }
   
   
