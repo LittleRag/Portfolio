@@ -616,7 +616,39 @@ body {
     bottom: 1rem;
     font-size: 1.6rem;
   }
+
+
+  .h3class{
+
+    text-align: center;
+  }
   
+
+  .coffeeclass {
+
+    position: relative;
+    top: 200px;
+    width: 100px;
+    height: 100px;
+  }
+
+
+  .tarotclass {
+    position: relative;
+    top: 200px;
+    width: 100px;
+    height: 100px;
+    padding-left: 20px;
+  }
+
+
+  .wayclass {
+    position: relative;
+    top: 200px;
+    width: 100px;
+    height: 100px;
+    padding-left: 20px;
+  }
 
   
   .intro{
@@ -663,6 +695,9 @@ body {
   }
 
  
+
+
+
 
 
 
