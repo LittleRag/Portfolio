@@ -628,27 +628,65 @@ body {
 
     position: relative;
     top: 200px;
-    width: 100px;
-    height: 100px;
+    width: 1100px;
+    height: 600px;
+    opacity: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 300px;
   }
 
+
+  .coffeeclass:hover{
+
+    opacity: 100%;
+    transition: opacity 1s;
+  }
 
   .tarotclass {
     position: relative;
     top: 200px;
-    width: 100px;
-    height: 100px;
-    padding-left: 20px;
+    width: 1100px;
+    height: 600px;
+    padding-left: 300px;
+    opacity: 20%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tarotclass:hover{
+
+    opacity: 100%;
+    transition: opacity 1s;
   }
 
 
   .wayclass {
     position: relative;
     top: 200px;
-    width: 100px;
-    height: 100px;
-    padding-left: 20px;
+    width: 1100px;
+    height: 600px;
+    padding-left: 300px;
+    opacity: 20%;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+
+  .wayclass:hover{
+
+    opacity: 100%;
+    transition: opacity 1s;
+  }
+
+
+
+
+
+
+
+
+  
 
   
   .intro{
