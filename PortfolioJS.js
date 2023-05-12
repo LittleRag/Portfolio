@@ -103,19 +103,6 @@ Element.prototype.hasClass = function(className) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 }
