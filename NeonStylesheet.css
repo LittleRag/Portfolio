@@ -641,6 +641,7 @@ text-align: auto;
   opacity: 20%;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 .tarotclass:hover{
@@ -676,37 +677,41 @@ text-align: auto;
 
 .image-wrapper {
   position: relative;
-  top: 8rem;
-  width: 50rem;
+  top: 10rem;
+  width: 35rem;
   height: 15rem;
   opacity: 80%;
+  left: 20rem;
   margin-right: 10rem;
-  padding-left: 20rem;
+  padding-left: 2rem;
 }
 
 .image-wrapper img {
   display: block;
   width: 100%;
+  border-radius: 2rem;
 }
 
 .text-overlay {
-  position: absolute;
-  top: 0;
-  left: 20rem;
-  width: 50rem;
-  height: 25.5rem;
+  position: relative;
+  top: -18rem;
+  left: -0.rem;
+  width: 35rem;
+  height: 18rem;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
   transition: opacity 0.3s ease;
+  border-radius: 2rem;
 }
 
 .text-overlay h2 {
   color: #fff;
   font-size: 1rem;
   text-align: center;
+  
 }
 
 .image-wrapper:hover .text-overlay {
@@ -719,23 +724,25 @@ text-align: auto;
 
 .image-wrapper2 {
   position: relative;
-  top: 11rem;
-  width: 50rem;
-  height: 15rem;
+  top: -8rem;
+  width: 35rem;
+  height: rem;
   opacity: 80%;
-  margin: 10rem;
+  margin: 3rem;
+  left: 40rem;
   padding-left: 20rem;
 }
 
 .image-wrapper2 img {
   display: block;
   width: 100%;
+  border-radius: 2rem;
 }
 
-.text-overlay {
-  position: absolute;
+.text-overlay2 {
+  position: relative;
   top: 0;
-  left: 20rem;
+  left: 22rem;
   width: 50rem;
   height: 26rem;
   display: flex;
@@ -760,31 +767,36 @@ text-align: auto;
 
 .image-wrapper3 {
   position: relative;
-  top: 20rem;
-  width: 50rem;
+  top: -25rem;
+  width: 40rem;
   height: 1rem;
   opacity: 80%;
-  margin: 9rem;
+  margin: 3rem;
+  left: 35rem;
   padding-left: 2rem;
+  
 }
 
 .image-wrapper3 img {
   display: block;
   width: 100%;
+  border-radius: 2rem;
+  
 }
 
-.text-overlay {
-  position: absolute;
-  top: 0;
-  left: 2rem;
-  width: 50rem;
-  height: 26rem;
+.text-overlay3 {
+  position: flex;
+  top: -25rem;
+  left: 0rem;
+  width: 35rem;
+  height: 25rem;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
   transition: opacity 0.3s ease;
+  
 }
 
 .text-overlay h2 {
